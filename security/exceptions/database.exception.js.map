@@ -1,0 +1,1 @@
+{"version":3,"file":"database.exception.js","sourceRoot":"","sources":["../../../chatbots-backend/src/security/exceptions/database.exception.ts"],"names":[],"mappings":";;AAAA,2CAA2D;AAE3D,MAAa,iBAAkB,SAAQ,sBAAa;IAChD,YAAY,OAAwB;QAChC,KAAK,CAAC,OAAO,EAAE,mBAAU,CAAC,qBAAqB,CAAC,CAAC;IACrD,CAAC;CACJ;AAJD,8CAIC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"business-rule.exception.js","sourceRoot":"","sources":["../../../chatbots-backend/src/security/exceptions/business-rule.exception.ts"],"names":[],"mappings":";;AAAA,2CAA2D;AAE3D,MAAa,qBAAsB,SAAQ,sBAAa;IACpD,YAAY,OAAe;QACvB,KAAK,CAAC,OAAO,EAAE,mBAAU,CAAC,WAAW,CAAC,CAAC;IAC3C,CAAC;CACJ;AAJD,sDAIC"}
