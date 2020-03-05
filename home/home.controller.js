@@ -18,14 +18,11 @@ let HomeController = class HomeController {
     async home(intentParametersDTO, res) {
         if (intentParametersDTO.queryResult.intent.displayName ===
             intents_enum_1.Intents.LOCATION_RESTAURANT) {
-            const parameters = intentParametersDTO.queryResult
-                .parameters;
-            parameters.Restaurant;
-            res.redirect('/api/v1/branches/location');
+            res.redirect(common_1.HttpStatus.TEMPORARY_REDIRECT, 'branches/location');
         }
         else if (intentParametersDTO.queryResult.intent.displayName ===
-            intents_enum_1.Intents.LOCATION_RESTAURANT) {
-            res.redirect('/api/v1/branches/schedule');
+            intents_enum_1.Intents.SCHEDULE_RESTAURANT) {
+            res.redirect(common_1.HttpStatus.TEMPORARY_REDIRECT, 'branches/schedule');
         }
     }
 };

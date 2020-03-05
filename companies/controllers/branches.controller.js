@@ -28,6 +28,7 @@ let BranchesController = class BranchesController {
     }
     async location(parameters, res) {
         const param = parameters.queryResult.parameters;
+        console.log(param);
         const response = await this.branchesService.reponseBot(param.Restaurant, intents_enum_1.Intents.LOCATION_RESTAURANT);
         res.status(common_1.HttpStatus.OK).json(response);
     }
